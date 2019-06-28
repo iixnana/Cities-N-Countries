@@ -1,0 +1,26 @@
+<div class="form">
+<h1 class="form-title">Redaguojama šalis</h1>
+	<form method="post" action="<?php $_SERVER['PHP_SELF']; ?>">
+		<div class="form-group">
+			<label>Pavadinimas</label>
+			<input type="text" name="title" class="form-field" value="<?php echo $viewmodel['title'];?>">
+		</div>
+		<div class="form-group">
+			<label>Plotas</label>
+			<input type="text" name="size" class="form-field" value="<?php echo $viewmodel['size'];?>">
+		</div>
+		<div class="form-group">
+			<label>Populiacija</label>
+			<input type="text" name="population" class="form-field" value="<?php echo $viewmodel['population'];?>">
+		</div>
+		<div class="form-group">
+			<label>Tel. kodas</label>
+			<input type="text" name="dialcode" class="form-field" value="<?php echo $viewmodel['dialcode'];?>">
+		</div>
+		<input type="hidden" name="id" value="<?php echo $viewmodel['id']; ?>" />
+		<div class="form-btn-grp">	
+			<input type="submit" name="submit" class="btn btn-pink" value="Išsaugoti">
+			<a class="btn btn-blue" href="<?php echo ROOT_PATH; ?>countries">Atšaukti</a>
+		</div>
+	</form>
+</div>
