@@ -10,4 +10,6 @@ Duomenų bazės schema: assets/db/Rysys.pdf
 
 Duomenų bazės prieigos nustatymai: config.php
 
+Buvo naudotas Apache serveris, PHP5, HTML, CSS.
+
 Paleidimas: http://localhost/cnc/
