@@ -10,4 +10,4 @@ Duomenų bazės schema: assets/db/Rysys.pdf
 
 Duomenų bazės prieigos nustatymai: config.php
 
-Paleidimas: http://localhost/PAVADINIMAS
+Paleidimas: http://localhost/cnc/
