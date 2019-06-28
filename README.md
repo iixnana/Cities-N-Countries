@@ -5,7 +5,9 @@ Realizuotas puslapiavimas, naujos šalies ar miesto sukūrimas, egzistuojančios
 
 # Setup
 Duomenų bazė: assets/db/cnc.sql
+
 Duomenų bazės schema: assets/db/Rysys.pdf
+
 Duomenų bazės prieigos nustatymai: config.php
 
 Paleidimas: http://localhost/PAVADINIMAS
